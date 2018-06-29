@@ -1,35 +1,28 @@
 .card {
-  background: #fff;
   border-radius: 1px;
-  height: 325px;
-  margin: 1rem;
+  height: 250px;
+  width:250px;
+  margin: 5%;
   position: relative;
   width: 325px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  margin-right:1%  
+}
     
-}
-
 .card > .img-container {
-  height: 60%;
-  overflow: hidden;
-  text-align: center;
   background:#fff;
-}
-.card > .img-container > img {
-  width: 100%;
+  overflow:hidden;
   height: 100%;
-  
+  width: 100%
+}
+.image {
+  padding-top:20px
 }
 
 .card > .move {
-  color: #ff1744;
-  font-size: 48px;
   position: absolute;
   top: -20px;
   right: 5px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
-.card > .move:hover {
-  color: #d50000;
-}

@@ -13,6 +13,9 @@ const styles = {
     <nav style={styles.navbarStyle} className="navbar">
       <a href="/">Clicky</a>
       <p></p>
+      <ul>
+      <li >Score: | Top score: </li>
+      </ul>
     </nav>
   );
   

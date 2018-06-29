@@ -5,11 +5,9 @@ import "./Header.css"
 
 
 const styles = {
-  headerStyle: {
-    background: "#2ddce2"
-  },
+  
   headingStyle: {
-    fontSize: "2em"
+    fontSize: "3em"
   },
   headingStyletwo: {
     fontSize: "1em"
@@ -19,10 +17,11 @@ const styles = {
 // We use JSX curly braces to evaluate the style object
 
 const Header = () => (
-    <header style={styles.headerStyle} className="header">
-    <h1 style={styles.headingStyle}>Clicky Game</h1>
-    {/* <h2 style={styles.headingStyletwo}>Click each tile to earn points, but only click it once!</h2> */}
+  <header className="header">
+    <h1>Clicky Game!</h1>
   
+    <h2 style={styles.headingStyletwo}>Click each image to earn points, but only click once!</h2>
+
   </header>
 );
 

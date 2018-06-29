@@ -10,37 +10,45 @@ import "./styles/App.css";
 
 class App extends Component {
   state = {
-    tiles
+    tiles,
+    count:0
   };
 
-  moveTiles = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const tiles = this.state.tiles.filter(tile => tile.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ tiles });
+  
+  moveTiles = (a) => {
+   const tiles = this.state.tiles.map(a => [Math.random(), a]) 
+                 .sort((a, b)=> a[0] - b[0])
+                 .map(a => a[1]);
+          
+  
+this.setState({tiles})
+};
+
+  handleIncrement = () => {
+  this.setState({ count: this.state.count + 1 });
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
+    <Wrapper>
       <Header />
         <Navbar />
-        <ScoreKeeper />
+         <ScoreKeeper />
         
         {this.state.tiles.map(tile => (
+          
           <TileCard
             moveTiles={this.moveTiles}
+            handleIncrement={this.handleIncrement}
             id={tile.id}
-            key={tile.id}
             image={tile.image}
-          />
+            key={tile.id}
+          />    
+        
         ))}
       </Wrapper>
-    );
+        );
   }
 }
 
 export default App;
-
-

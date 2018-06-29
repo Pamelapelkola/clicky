@@ -1,15 +1,17 @@
-.header {
-    background: #2ddce2;
+  header {
     padding:9%;
-    width:100%
-
-  }
+    width:100%;
+    font-family: 'Anton', sans-serif;
+    background: url('/zig zag wool.png')!important;
+   }
   
   .header h1 {
     text-align: center;
     color: white;
-    font-size: 1pt;
+    font-size: 28pt;
     width: 1100px;
+    padding-bottom:5%
+
   }
   .header h2 {
     margin-top: 0;

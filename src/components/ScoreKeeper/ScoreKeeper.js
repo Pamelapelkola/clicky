@@ -22,10 +22,7 @@ class scoreKeeper extends React.Component {
   render() {
     return (
         <div className="card-body">
-          <p className="card-text">Click Count: {this.state.count}Top Score: </p>
-          <button className="btn btn-primary" onClick={this.handleIncrement}>
-            Increment
-          </button>
+        
         </div>
     );
   }
