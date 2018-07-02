@@ -1,51 +1,63 @@
 [
     {
       "id": 1,
-      "image": "https://vignette.wikia.nocookie.net/5c66da27-68c6-4b06-86ce-9ac484d3358e/thumbnail-down/width/400/height/225"
+      "image": "https://vignette.wikia.nocookie.net/5c66da27-68c6-4b06-86ce-9ac484d3358e/thumbnail-down/width/400/height/225",
+      "selected":false
     },
     {
       "id": 2,
-      "image": "https://vignette.wikia.nocookie.net/67d90f1a-12cb-4c4e-85c3-c0ba6312868f/thumbnail-down/width/400/height/225"
+      "image": "https://vignette.wikia.nocookie.net/67d90f1a-12cb-4c4e-85c3-c0ba6312868f/thumbnail-down/width/400/height/225",
+      "selected":false
     },
     {
       "id": 3,
-      "image": "https://vignette.wikia.nocookie.net/75f6f7d8-b1a2-4ad3-81f0-f7667e1fe7a2/thumbnail-down/width/400/height/225"
+      "image": "https://vignette.wikia.nocookie.net/75f6f7d8-b1a2-4ad3-81f0-f7667e1fe7a2/thumbnail-down/width/400/height/225",
+      "selected":false
     },
     {
       "id": 4,
-      "image": "https://vignette.wikia.nocookie.net/727f75f0-72ae-4145-9b25-44e438ec9ac4/thumbnail-down/width/400/height/225"
+      "image": "https://vignette.wikia.nocookie.net/727f75f0-72ae-4145-9b25-44e438ec9ac4/thumbnail-down/width/400/height/225",
+      "selected":false
     },
     {
       "id": 5,
-      "image": "https://vignette.wikia.nocookie.net/087238d7-267a-46d1-86b9-b67d4852244f/thumbnail-down/width/400/height/225"
+      "image": "https://vignette.wikia.nocookie.net/087238d7-267a-46d1-86b9-b67d4852244f/thumbnail-down/width/400/height/225",
+      "selected":false
     },
     {
       "id": 6,
-      "image": "https://vignette.wikia.nocookie.net/dd773e4b-19f0-420f-a5da-21fba35c9388/thumbnail-down/width/400/height/225"
+      "image": "https://vignette.wikia.nocookie.net/dd773e4b-19f0-420f-a5da-21fba35c9388/thumbnail-down/width/400/height/225",
+      "selected":false
     },
     {
       "id":7,
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/Yoshi-Kid_1526.jpg"
+      "image": "http://static.tvtropes.org/pmwiki/pub/images/Yoshi-Kid_1526.jpg",
+      "selected":false
     },
     {
       "id": 8,
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/53cd65662c6649515cb46772cd51509b.png"
+      "image": "http://static.tvtropes.org/pmwiki/pub/images/53cd65662c6649515cb46772cd51509b.png",
+      "selected":false
     },
     {
       "id": 9,
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/mpsr_king_bob_omb.png"
+      "image": "http://static.tvtropes.org/pmwiki/pub/images/mpsr_king_bob_omb.png",
+      "selected":false
     },
     {
       "id": 10,
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/whomp_king_6624.png"
+      "image": "http://static.tvtropes.org/pmwiki/pub/images/whomp_king_6624.png",
+      "selected":false
     },
     {
       "id": 11,
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/wiggler_sunshine_6172.jpg"
+      "image": "http://static.tvtropes.org/pmwiki/pub/images/wiggler_sunshine_6172.jpg",
+      "selected":false
     },
     {
       "id": 12,
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/gooperblooper_4514.jpg"
+      "image": "http://static.tvtropes.org/pmwiki/pub/images/gooperblooper_4514.jpg",
+      "selected":false
     }
   ]
   
